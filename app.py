@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import io
-import matplotlib as plt
 matplotlib.use("Agg")  # Guna backend tanpa GUI untuk Streamlit
 import matplotlib.pyplot as plt
 
