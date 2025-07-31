@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib
-matplotlib.use("Agg")  # Guna backend tanpa GUI untuk Streamlit
 import io
 
 st.set_page_config(page_title="Aplikasi Kesihatan Ringkas", layout="centered")
