@@ -90,7 +90,7 @@ if nama and bmi is not None:
     # -------------------
     # Graf bar kalori
     # -------------------
-    fig, ax = plt.subplots(figsize=(5, 3))
+    fig, ax = st.subplots(figsize=(5, 3))
     warna_baki = "green" if baki >= 0 else "red"
     bars = ax.bar(["Dimakan", "Baki/Defisit"], [eaten, baki], color=["orange", warna_baki])
 
