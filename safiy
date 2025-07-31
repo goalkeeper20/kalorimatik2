@@ -143,4 +143,4 @@ if nama and bmi is not None:
 
 else:
     st.info("ℹ Sila lengkapkan maklumat Nama, Berat dan Tinggi sebelum meneruskan.")
-app.py
+
